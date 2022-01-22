@@ -1,0 +1,18 @@
+<header>
+   <div class="flex-header"> 
+      <div class="logo">JF</div>
+      <div class="menu">
+         <nav>
+            <ul>
+            {% for item in site.data.navigation %}
+            <li >
+               <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+               {{ item.name }}
+               </a>
+            </li>
+          {% endfor %}
+         
+         </ul>
+      </nav>
+      </div>
+</header>

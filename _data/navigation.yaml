@@ -1,0 +1,7 @@
+- name: About
+  link: /about.html
+- name: Databases
+  link: /databases/index.html
+- name: Languages
+  link: /languages/index.html
+
